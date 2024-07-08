@@ -17,6 +17,12 @@
 - Ferramentas de infraestrtutura
 - Serviço de nuvem 
 
+###Estrutura do estudo
+
+- Fundamentos da linguagem
+- Fundamentos adicionais 
+- Desenvolvimento de aplicações
+
 ### Estudo
 
 [ ] Pacotes 

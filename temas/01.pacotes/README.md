@@ -82,3 +82,33 @@ Pacotes executáveis são aqueles que contêm um ponto de entrada (main function
 - Devem ser declarados com um nome de pacote diferente de main, frequentemente refletindo a funcionalidade fornecida pelo pacote.
 - Funções, tipos e variáveis que começam com letra maiúscula são exportadas e podem ser usadas por outros pacotes.
 - Pacotes não executáveis são importados e utilizados em outros pacotes, incluindo pacotes executáveis.
+
+
+### MODULO- 
+
+- Conjunto de pacotes que compoem um conjunto de pacotes que compe seu projeto compilando em só lugar
+
+```
+cd PASTA
+go mod init modulo 
+
+```
+### BUILD
+
+- Cria um arquivo binario compilado na raiz com nome referente ao modulo que criei
+- Não fica mexendo manualmente nele
+
+```
+go build
+```
+### BAIXAR dependencias externas 
+
+```
+go get github.com/badoux/checkmail
+```
+
+### Apaga todos os pacotesque não estão sendo usados
+
+```
+ go mod tidy
+```
